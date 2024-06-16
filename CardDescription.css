@@ -9,25 +9,21 @@
     margin-top: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 70vh;
+    /* align-items: center; */
+    height: 100vh;
     border: 2px solid orange;
     flex-wrap: wrap;
-
-
     
-
 }
 .LeftCardDescription{
     width: 40vw;
     min-width: 400px;
-    padding:40px 25px;
-    /* margin: 0px 15px; */
+    padding:75px 25px;
+    margin: 15px 15px;
     background-color: rgb(241, 236, 224);
-    height: 100%;
+    height: 74vh;
     text-align: center;
     
-
 
 }
 .RightCardDescription{
@@ -38,7 +34,6 @@
     margin: 0px 15px;
 
 }
-
 
 .Price{
     font-weight: 700;
@@ -191,7 +186,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    height: 10%;
+    height: 7%;
    
     margin: 12px 0px;
 
