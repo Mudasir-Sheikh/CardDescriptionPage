@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="CardDescription.css">
+    <link rel="stylesheet" href="heart.css">
+    
+</head>
+
+<body>
+    <section class="CardDescription">
+        <div class="LeftCardDescription">
+            <img src="chickenwithrice.png" alt="chickenwithrice">
+        </div>
+        <!-- <div class="RightCardDescriptionWrapper" style="padding: 0px 0px;"> -->
+        <div class="RightCardDescription">
+            <div class="Price">$30</div>
+            <div class="RecipeName">Chicken with Rice</div>
+            <div class="Ratings">
+                <div class="Stars">
+                    <div class="star" data-index="1"></div>
+                    <div class="star" data-index="2"></div>
+                    <div class="star" data-index="3"></div>
+                    <div class="star" data-index="4"></div>
+                    <div class="star" data-index="5"></div>
+                </div><p> (2 Reviews)</p>
+            </div>
+            <div class="RecipeDescription">The registration fee covers access to all conference sessions, workshops,
+                networking events, exhibition areas, and conference materials. Please refer to the registration page for
+                a detailed breakdown of inclusions. You can make payments through our secure online registration.</div>
+
+            <div class="Availability">
+                <span><b>Availability:</b></span> <span>In Stock</span>
+            </div>
+            <div class="AddToCardCount">
+                <input type="text" id="cart_value">
+                <span class="Counters">
+                    <button onclick="incrementvalue()" id="increment">+</button>
+                    <button onclick="decrementvalue()" id="decrement">-</button>
+                </span>
+                <button id="add_to_cart">ADD TO CART</button>
+                <div class="FavIconBox"><img src="heart-solid.svg" alt="favourite" class="FavIcon"></div>
+            </div>
+
+            <div class="SkuWrapper"> <span><b>SKU: </b></span><span>chicken-with-rice</span></div>
+            <div><span><b>Categories: </b></span><span>Desi-Food</span></div>
+            
+
+
+        </div>
+        
+  
+    </section>
+</body>
+<script src="carddescription.js"></script>
+
+
+</html>

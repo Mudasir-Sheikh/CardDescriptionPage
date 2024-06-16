@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.CardDescription{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    border: 2px solid rebeccapurple;
+    flex-wrap: wrap;
+
+
+    
+
+}
+.LeftCardDescription{
+    width: 40vw;
+    min-width: 400px;
+    border: 1px solid violet;
+    padding:40px 25px;
+    /* margin: 0px 15px; */
+    background-color: rgb(241, 236, 224);
+    height: 100%;
+    text-align: center;
+    
+
+
+}
+.RightCardDescription{
+    width: 40vw;
+    min-width: 400px;
+    border: 1px solid blue;
+    height: 100%;
+    padding: 4px 40px;
+    margin: 0px 15px;
+
+}
+
+
+.Price{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(78, 77, 77);
+    border: 1px solid rgb(38, 206, 22);
+    padding: 8px;
+    margin: 6px 0px;
+
+}
+.RecipeName{
+    font-weight: 600;
+    font-size: 2rem;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 6px;
+    margin: 8px 0px;
+
+}
+
+
+.Ratings{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: rgb(75, 74, 74);
+    border: 1px solid rgb(8, 1, 43);
+
+}
+.Stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.star {
+    width: 1em;
+    height: 1em;
+    background-color: rgb(177, 174, 174);
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    margin: 2px;
+}
+
+.filled {
+    background-color: gold;
+}
+
+
+.RecipeDescription{
+    font-size: 1em;
+    border: 1px solid rgb(110, 21, 21);
+    padding: 10px;
+    margin: 10px 0px;
+    color: rgb(82, 79, 79);
+
+}
+.Availability{
+    padding: 10px;
+    margin: 8px 0px;
+
+}
+
+.FavIcon{
+    width: 1rem;
+    height: 1rem;
+    /* fill: red; */
+    /* border: 1px solid white; */
+    /* background-color: red; */
+    /* color: red; */
+
+}
+.FavIconBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 2.6rem;
+    background-color: rgb(250, 133, 7);
+}
+
+
+
+
+
+
+
+
+.AddToCardCount{
+    border: 2px solid rgb(17, 0, 255);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    /* padding: 10px; */
+    /* margin: 12px 25px; */
+
+}
+
+
+.AddToCardCount > input{
+    width: 10%;
+    height:100% ;
+    text-align: center;
+
+}
+
+
+.Counters {
+    width: 10%;
+    height: 100%;
+    border: 1px solid grey;
+}
+
+#increment, #decrement {
+    width: 100%;
+    height: 50%;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+    background-color: white;
+    transition: ease-in-out 0.18s;
+}
+
+#increment:hover, #decrement:hover{
+    background-color: rgb(250, 133, 7);
+    color: white;
+    transform: scale(1.05);
+}
+
+
+
+#add_to_cart{
+    font-size: 0.8rem;
+    /* font-weight: 600; */
+    height: 100%;
+    width: 24%;
+    background-color: transparent;
+    text-align: center;
+    margin: 0px 20px;
+    background-color:rgb(250, 133, 7);
+    color: white;
+    border: none;
+    
+}
+
+
+#add_to_cart:hover ,.FavIconBox:hover{
+    transition: ease-in-out 0.5s;
+    transform: scale(1.05);
+    color: white;
+    background-color: black;
+    
+}
+
+
+.SkuWrapper{
+    padding: 4px 0px;
+    margin: 4px 0px;
+}
